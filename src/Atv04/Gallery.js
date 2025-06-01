@@ -17,29 +17,29 @@ export default function Gallery() {
   }
 
   return (
-    <div className="gallery-container">
-        <div className="gallery-header">
-        <h2 className="gallery-h2">
+    <div className="atv04-gallery-container">
+        <div className="atv04-gallery-header">
+        <h2 className="atv04-gallery-h2">
             <i>{hero.name}</i> é {hero.artist}
         </h2>
-        <h3 className="gallery-h3">
+        <h3 className="atv04-gallery-h3">
             ({index + 1} de {heroes.length})
         </h3>
         </div>
 
-        <div className="gallery-buttons">
-        <button className="gallery-button" onClick={handleNextClick}>
+        <div className="atv04-gallery-buttons">
+        <button className="atv04-gallery-button" onClick={handleNextClick}>
             Próximo
         </button>
 
-        <button className="gallery-button" onClick={handleMoreClick}>
+        <button className="atv04-gallery-button" onClick={handleMoreClick}>
             {showMore ? 'Esconder' : 'Mostrar'} detalhes
         </button>
         </div>
 
-        <img className="gallery-image" src={hero.url} alt={hero.alt} />
+        <img className="atv04-gallery-image" src={hero.url} alt={hero.alt} />
 
-        {showMore && <p className="gallery-description">{hero.description}</p>}
+        {showMore && <p className="atv04-gallery-description">{hero.description}</p>}
     </div>
     );
 }

@@ -1,64 +1,59 @@
-.gallery-container {
-  max-width: 420px;
+.atv04-gallery-container {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   text-align: center;
-  margin: 0 auto;
 }
 
-.gallery-header {
+.atv04-gallery-header {
   margin-bottom: 15px;
 }
 
-.gallery-h2 {
-  font-size: 24px;
-  margin: 0;
-  font-weight: 600;
+.atv04-gallery-h2 {
+  font-size: 1.8em;
+  margin-bottom: 5px;
 }
 
-.gallery-h2 i {
-  font-style: italic;
-  color: #000000;
+.atv04-gallery-h3 {
+  font-size: 1.1em;
+  font-weight: normal;
+  opacity: 0.8;
 }
 
-.gallery-h3 {
-  font-weight: 400;
-  margin: 5px 0 0 0;
-  color: #bbbbbb;
+.atv04-gallery-buttons {
+  margin-bottom: 20px;
 }
 
-.gallery-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 15px; /* espaço entre os botões */
-  margin-bottom: 15px;
-}
-
-.gallery-button {
-  background-color: #007bff;
+.atv04-gallery-button {
+  background-color: #4CAF50;
   color: white;
+  padding: 10px 20px;
   border: none;
-  padding: 10px 16px;
-  font-size: 16px;
+  border-radius: 5px;
   cursor: pointer;
-  border-radius: 6px;
+  font-size: 1em;
+  margin: 0 10px;
   transition: background-color 0.3s ease;
 }
 
-.gallery-button:hover {
-  background-color: #0056b3;
+.atv04-gallery-button:hover {
+  background-color: #45a049;
 }
 
-.gallery-description {
-  max-width: 400px;
-  font-size: 18px;
-  line-height: 1.4;
-  margin: 15px auto 0 auto;
-}
-
-.gallery-image {
-  width: 300px;
+.atv04-gallery-image {
+  max-width: 100%;
   height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
-  display: block;
-  margin: 0 auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.atv04-gallery-description {
+  font-size: 1.1em;
+  line-height: 1.6;
+  text-align: left;
+  padding: 0 10px;
 }

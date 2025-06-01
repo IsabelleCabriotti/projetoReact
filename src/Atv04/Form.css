@@ -1,9 +1,12 @@
 .form-container {
   max-width: 250px;
   margin: 20px auto;
-  padding: 10px;
-  border: 1px solid #ddd;
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: #333333;
+  border: 1px solid #1a1a1a;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: sans-serif;
 }
 
@@ -14,6 +17,7 @@
   margin-bottom: 10px;
   width: 100%;
   font-size: 16px;
+  color: #656565;
 }
 
 .form-container button {
@@ -24,4 +28,9 @@
   border: none;
   border-radius: 6px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #218838;
 }
