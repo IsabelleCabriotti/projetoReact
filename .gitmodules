@@ -1,0 +1,3 @@
+[submodule "loja-api"]
+	path = loja-api
+	url = https://github.com/IsabelleCabriotti/loja-api.git
